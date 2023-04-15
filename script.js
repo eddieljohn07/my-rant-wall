@@ -6,3 +6,9 @@ const textContainer = document.getElementById('textContainer');
 addButton.addEventListener('click', () => {
 	addBouncingText();
 });
+
+textInput.addEventListener('keyup', (event) => {
+	if (event.key === 'Enter') {
+		addBouncingText();
+	}
+});
