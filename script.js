@@ -12,3 +12,7 @@ textInput.addEventListener('keyup', (event) => {
 		addBouncingText();
 	}
 });
+
+clearButton.addEventListener('click', () => {
+	textContainer.innerHTML = '';
+});
