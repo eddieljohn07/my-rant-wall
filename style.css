@@ -29,6 +29,16 @@ p {
     font-style: italic;
 }
 
+input[type="text"] {
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
 #addButton {
     padding: 5px 50px 5px 50px;
 }
