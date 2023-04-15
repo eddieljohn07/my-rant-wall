@@ -16,3 +16,4 @@ textInput.addEventListener('keyup', (event) => {
 clearButton.addEventListener('click', () => {
 	textContainer.innerHTML = '';
 });
+
