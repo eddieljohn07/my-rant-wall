@@ -29,4 +29,3 @@ function addBouncingText() {
 	}
 	textInput.value = '';
 }
-
