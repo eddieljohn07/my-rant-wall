@@ -109,9 +109,18 @@ button {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 5px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: flex-end;
 }
+
+.rf{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+
